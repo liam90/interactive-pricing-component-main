@@ -34,26 +34,48 @@ body {
   background-image: url("/images/pattern-circles.svg");
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 3.5em;
+  padding-top: 4em;
   margin-bottom: 2em;
 }
 
 .tagline {
+  color: var(--dark_desaturated_blue);
   font-weight: 800;
   font-size: 2em;
 }
+
+.intro_banner > p {
+  color: var(--greyish_blue);
+}
+
 .discount_card {
   width: 30vw;
   height: 40vh;
+  color: var(--dark_desaturated_blue);
   padding: 1.5em;
+  margin-bottom: 3em;
   background-color: var(--white);
-  box-shadow: 10px, 5px, 5px, red;
+  box-shadow: 2px 3px 15px 1px hsl(0, 0%, 80%);
   border-radius: 12px;
-  border: solid thin black;
 }
 .discount_heading {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.page_views {
+  font-weight: 800;
+}
+
+.dollar_amount {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.monthly {
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /* The switch - the box around the slider */
